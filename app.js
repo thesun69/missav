@@ -64,10 +64,6 @@ app.get('/missav/details/*', async (req, res) => {
     getDetails(req, res, baseUrl);
 });
 
-
-
-
-
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
     console.log(`Server running on port http://localhost:${PORT}/missav/`);
